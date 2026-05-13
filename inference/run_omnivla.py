@@ -482,7 +482,7 @@ class Inference:
 class InferenceConfig:
     resume: bool = True
     vla_path: str = "./omnivla-original"
-    resume_step: Optional[int] = 120000    
+    resume_step: Optional[int] = 285000
     #vla_path: str = "./omnivla-finetuned-cast"    
     #resume_step: Optional[int] = 210000
     use_l1_regression: bool = True
